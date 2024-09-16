@@ -1,0 +1,44 @@
+.Header_Outer_Container {
+    position: sticky;
+    top: 0;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(20, 20, 20);
+    background-color: transparent;
+    height: 10vh;
+    color: white;
+    transition: all 0.5%;
+    z-index: 1;
+    /* background-color: red; */
+}
+
+.header_left ul {
+    width: 140%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
+}
+
+.header_right ul {
+    width: 140%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
+    /* background-color: lightgreen; */
+}
+
+.header_container {
+    list-style: none;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_black {
+    background-color: rgb(20, 20, 20);
+}
